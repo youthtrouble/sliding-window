@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/analysis"
 	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/internal/analysis"
 )
 
 func TestSignalsAnalyzer(t *testing.T) {
@@ -57,4 +57,4 @@ func TestSignalsAnalyzer(t *testing.T) {
 			t.Error("Expected nil for insufficient data")
 		}
 	})
-} 
+}

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/analysis"
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/internal/analysis"
+	"github.com/youthtrouble/sliding-window/internal/models"
 )
 
 func TestMovingAverageAnalyzer(t *testing.T) {
@@ -51,4 +51,4 @@ func TestMovingAverageAnalyzer(t *testing.T) {
 			t.Error("Expected nil for insufficient data")
 		}
 	})
-} 
+}

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/api"
-	"github.com/dejiajibola/interview-prep/sliding-window/pkg/config"
+	"github.com/youthtrouble/sliding-window/internal/api"
+	"github.com/youthtrouble/sliding-window/pkg/config"
 )
 
 func TestClient_FetchStockData(t *testing.T) {
@@ -77,4 +77,4 @@ func TestClient_FetchStockData(t *testing.T) {
 	if prices[2].Price != 95.0 {
 		t.Errorf("Expected last price 95.0, got %f", prices[2].Price)
 	}
-} 
+}

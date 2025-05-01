@@ -1,7 +1,7 @@
 package analysis
 
 import (
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/internal/models"
 )
 
 // Signal represents a trading signal
@@ -47,4 +47,4 @@ func (a *SignalsAnalyzer) Generate(prices models.StockPrices) []Signal {
 	}
 
 	return signals
-} 
+}

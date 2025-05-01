@@ -1,7 +1,7 @@
 package analysis
 
 import (
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/internal/models"
 )
 
 // Trend represents a price trend
@@ -54,4 +54,4 @@ func (a *TrendsAnalyzer) Identify(prices models.StockPrices) []Trend {
 	}
 
 	return trends
-} 
+}

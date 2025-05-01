@@ -1,7 +1,7 @@
 package analysis
 
 import (
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/internal/models"
 )
 
 // PriceExtremesAnalyzer finds maximum and minimum prices in windows
@@ -44,4 +44,4 @@ func (a *PriceExtremesAnalyzer) FindMinPrices(prices models.StockPrices) []float
 	}
 
 	return minPrices
-} 
+}

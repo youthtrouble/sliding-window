@@ -3,7 +3,7 @@ package analysis
 import (
 	"math"
 
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/internal/models"
 )
 
 // VolatilityAnalyzer calculates price volatility in windows
@@ -39,4 +39,4 @@ func (a *VolatilityAnalyzer) Calculate(prices models.StockPrices) []float64 {
 	}
 
 	return volatilities
-} 
+}

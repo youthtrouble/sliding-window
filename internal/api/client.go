@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
-	"github.com/dejiajibola/interview-prep/sliding-window/pkg/config"
+	"github.com/youthtrouble/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/pkg/config"
 )
 
 const timeLayout = "2006-01-02"
@@ -67,4 +67,4 @@ func parseFloat(s string) (float64, error) {
 	var f float64
 	_, err := fmt.Sscanf(s, "%f", &f)
 	return f, err
-} 
+}

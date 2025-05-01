@@ -2,12 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/youthtrouble/sliding-window/internal/analysis"
+	"github.com/youthtrouble/sliding-window/internal/api"
+	"github.com/youthtrouble/sliding-window/pkg/config"
 	"log"
-	"time"
-
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/api"
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/analysis"
-	"github.com/dejiajibola/interview-prep/sliding-window/pkg/config"
 )
 
 func main() {
@@ -67,4 +65,4 @@ func main() {
 		fmt.Printf("  Signal: %s\n", signals[i])
 		fmt.Println()
 	}
-} 
+}

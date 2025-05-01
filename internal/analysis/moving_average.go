@@ -1,7 +1,7 @@
 package analysis
 
 import (
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/internal/models"
 )
 
 // MovingAverageAnalyzer calculates moving averages for stock prices
@@ -28,4 +28,4 @@ func (a *MovingAverageAnalyzer) Calculate(prices models.StockPrices) []float64 {
 	}
 
 	return averages
-} 
+}

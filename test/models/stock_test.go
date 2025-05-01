@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dejiajibola/interview-prep/sliding-window/internal/models"
+	"github.com/youthtrouble/sliding-window/internal/models"
 )
 
 func TestStockPrices(t *testing.T) {
@@ -58,4 +58,4 @@ func TestStockPrices(t *testing.T) {
 			t.Errorf("Expected min 95.0, got %f", min)
 		}
 	})
-} 
+}
